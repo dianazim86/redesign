@@ -1,0 +1,95 @@
+#top {
+	background-color: #ccc;
+	padding: 1em;
+}
+
+#top h1 {
+	color: #ff0;
+}
+
+#top p {
+	color: red;
+	font-weight: bold;
+}
+
+.intro {
+	color: red;
+	font-weight: bold;
+}
+
+h2, .thisOtherClass, .yetAnotherClass {
+	color: red;
+}
+
+a:link {
+	color: blue;
+}
+
+a: visited {
+	color: purple;
+}
+
+a:active {
+	color: red;
+}
+
+a:hover {
+	text-decoration: none;
+	color: blue;
+	background-color: yellow;
+}
+
+input:focus, textarea:focus{
+	background:#eee;
+}
+
+p:first-child {
+	font-weight:bold;
+	font-size: 40px;
+}
+
+p {
+	font: 12px/1.5 "Times New Roman", times, serif;
+	padding: 30px 10px;
+	border: 1px black solid;
+	border-width: 1px 5px 5px 1px;
+	border-color: red green blue yellow;
+	margin: 10px 50px;
+}
+
+body {
+	background: white url(http://weknowyourdreamz.com/images/chocolate/chocolate-03.jpg) no-repeat top right;
+}
+
+li {
+	display: inline;
+}
+
+#navigation a {
+	display: block;
+	padding: 20px 10px;
+}
+
+p:first-letter {
+	font-size: 24px;
+	float:left;
+}
+
+p:first-line {
+	font-weight: bold;
+}
+
+blockquote:before {
+	content:open-quote;
+}
+blockquote:after {
+	content:close-quote;
+}
+li:before {
+	content:"POW!";
+	background: red;
+	color: #fc0;
+}
+p:before {
+	content:url(images/jam.jpg);
+}

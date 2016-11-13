@@ -1,0 +1,50 @@
+body {
+	background-color: #b30000;
+}
+
+h1 {
+	font-size: 50px;
+	top: 50px;
+	text-align: center;
+	color:#ffa31a;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.container {
+	width: 500px;
+	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box {
+	background-color: grey;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	border: none;
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	font-size: 20px;
+	font-weight: bold;
+	color:#ffa31a;
+	font-family: Georgia;
+	font-style: italic;
+	
+}
+
+#left {
+	float: left;
+	margin-left: 390px;
+}
+
+#right {
+	float: right;
+	margin-right: 380px;
+}

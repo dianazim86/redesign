@@ -1,0 +1,120 @@
+
+.google {
+    text-align: center;
+    margin: 200px 50px 40px 50px;
+}
+
+.searchbar {
+    text-align: center;
+}
+
+
+	
+
+.searchbutton {
+	text-align: center;
+}
+button {
+	padding: 15px;
+	background-color: #f2f2f2;
+	border: none;
+	font-family: Sans-serif;
+	font-size: 12px;
+	color: #8c8c8c;
+	font-weight: bold;
+}
+
+button:hover {
+	border: 1px solid #595959;
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+	font-family: Sans-serif;
+	font-size: 14px;
+	color: gray;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#SignIn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#Googleapps {
+	position: absolute;
+	top: 25px;
+	right:200px;
+}
+
+#Images {
+	position: absolute;
+	right: 250px;
+	top: 30px;
+}
+
+#Gmail {
+	position: absolute;
+	right: 325px;
+	top: 30px;
+}
+
+#Advertising {
+	position: absolute;
+	left: 20px;
+	bottom: 15px;
+}
+
+#Business {
+	position: absolute;
+	left:120px;
+	bottom: 15px;
+}
+
+#About {
+	position: absolute;
+	left: 220px;
+	bottom: 15px;
+}
+
+#Settings {
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+}
+
+#Terms {
+	position: absolute;
+	right: 120px;
+	bottom: 15px;
+}
+
+#Privacy {
+	position: absolute;
+	right: 220px;
+	bottom: 15px;
+}
+
+.footer {
+	position: fixed;
+	bottom: -10px;
+	width: 97%;
+	padding: 20px;
+	padding-left:10px;
+	border: none;
+	margin: 10px;
+	background-color: #f2f2f2;
+}
+
+
+
